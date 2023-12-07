@@ -10,4 +10,3 @@ jobs:
     uses: test-gitHub-actions/.github/workflows/resusable_pipeline.yml@feature
     with: 
       node-version: 14
-      branches: feaute
