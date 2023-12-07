@@ -7,6 +7,6 @@ on:
 
 jobs:
   execute-pipeline:
-    uses: leytoncasta/test-gitHub-actions/.github/workflows/resusable_pipeline.yml@main
+    uses: leytoncasta/test-gitHub-actions/.github/workflows/reusable_pipeline.yml@main
     with: 
       node-version: 14
