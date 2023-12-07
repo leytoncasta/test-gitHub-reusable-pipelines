@@ -1,0 +1,13 @@
+name: calling reusable pipeline
+
+on: 
+  push:
+    branches:
+      - '*'
+
+jobs:
+  execute-pipeline:
+    uses: test-gitHub-actions/.github/workflows/resusable_pipeline.yml
+    with: 
+      node-version: 14
+      branches: feaute
